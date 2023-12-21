@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:orientation="vertical"
+    tools:context=".Start">
+    <TextView
+        android:id="@+id/TV"
+        android:textColor="#FFFFFF"
+        android:background="#5E2222"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_width="370dp"
+        android:layout_height="70dp"></TextView>
+    <Button
+        android:id="@+id/BT"
+        android:gravity="center"
+        android:backgroundTint="#630202"
+        android:layout_gravity="right"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#FFFFFF"
+        android:text="В меню"></Button>
+
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_width="wrap_content"
+        android:background="#5E2222"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:text="На улице светило солнце, его лучи проникали в комнату, овсещая три лица: напряжённое отца, бледное, как полотно, матери и моё, исхудавшее, не выражающее никаких эмоций...\nУ меня всегда было такое лицо, точнее, за последние пол года оно превратилось в безжизненную физиономию из-за постоянных стрессов, срывов, недосыпов и переживаний."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:background="#5E2222"
+        android:layout_marginTop="130dp"
+        android:layout_height="wrap_content"
+        android:text="Всё ещё не догадались почему?\nЭкзамены\nДа, можно забить болт на подготовку и наслаждаться подростковой жизнью, но что потом?\nИз-за недостаточной работы написать тесты на низкие баллы и поступить в ЮУРГУ?\nНу уж нет, перспектива куда заманчивее - окно, открытое в жаркую погоду нараспашку. Прыгать высоко, шанса выжить практически не..."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/TV3"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:background="#5E2222"
+        android:layout_marginTop="130dp"
+        android:layout_height="wrap_content"
+        android:text="А! Экзамен, вернёмся к нему.\nПричина, по которой мы здесь собрались - именно он.\nНедавно появились результакты, по этому мы сразу же ринулись смотреть их.\nДрожащими пальцами, вбив фамилию и имя, дважды ошибившись в номере паспорта, загрузились результаты."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+    <ImageView
+        android:id="@+id/IV"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:background="@drawable/ekz"
+        ></ImageView>
+    <TextView
+        android:id="@+id/TV4"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:background="#5E2222"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="24...\nМоё сердце уходит в пятки, я начинаю впадать в пучину отчаянья и непонимания, как....\nПогодите, такими темпами и умереть не сложно!\nЯ посмотрел на минимальный балл, а не на свой, никогда так не было приятно ошибаться.\nСердце начало биться чуть медленее, а в голове стучала барабанная дробь, не хотелось смотреть ещё на один столбец левее..."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+    <ImageView
+        android:id="@+id/IV1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:background="@drawable/ekzz"
+        ></ImageView>
+    <TextView
+        android:id="@+id/TV5"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:background="#5E2222"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="97\nЭто была победа!\nНа глазах навернулись слёзы счастья. Русский прошёл успешно!\nНе буду долго таить, в математике налажал конкретно - 84 балла получил, по информатике же меня чуть не прибил флешкой репетитор, когда узнала, что я не смог набрать сотку только из-за задачи на среднее арифметическое в экселе. Да там разница была в сотые!! Было обидно, но своими 98-ю баллами я всё же гордился."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/TV6"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:background="#5E2222"
+        android:layout_height="wrap_content"
+        android:text="В школе я не был отличником, но и троек у меня не было. Я был лучшим из хорошистов, если так можно сказать. Но за это баллы не дают, так что мои сырые 279 баллов курили молча в сторонке.\nЗато повезло в другом - значок ГТО дал приятный бонус в качестве 3-х баллов, что в будущем сказалось на моей стипендии, да и на рейтинге среди поступающих.\nЕстественно, со своими баллами я не проходил ни в Бауманку, ни тем более в МФТИ, но зато идеально подходил в списке Программной инженерии МИРЭА.\nНе буду томить, я прошёл в группу ИКБО-10-23, заселился в первую общагу.\nДа начнётся моя история с востановленными за август месяц психикой и ментальным здоровьем, большими амбициями и грандиозными планами."
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/TV7"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#5E2222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="РТУ МИРЭА, таких студентов ты ещё не видел!!!"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"></TextView>
+</LinearLayout>

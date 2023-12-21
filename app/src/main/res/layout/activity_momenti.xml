@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stret"
+    android:orientation="vertical"
+    tools:context=".Momenti">
+
+    <Button
+        android:id="@+id/BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#D8C93F"
+        android:text="В меню"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+    <TextView
+        android:id="@+id/TT"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"></TextView>
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="800dp"
+        android:layout_gravity="center"
+        android:id="@+id/IV2"></ImageView>
+    <TextView
+        android:id="@+id/TV"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#D8C93F"
+        android:gravity="left"
+        android:textSize="20dp"></TextView>
+    <ImageView
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:layout_gravity="center"
+        android:id="@+id/IV"></ImageView>
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:id="@+id/IV1"></ImageView>
+</LinearLayout>

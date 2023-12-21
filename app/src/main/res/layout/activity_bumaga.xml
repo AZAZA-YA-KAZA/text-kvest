@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    android:orientation="vertical"
+    tools:context=".Bumaga">
+
+    <Button
+        android:id="@+id/BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#5E2222"
+        android:text="В меню"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+    <TextView
+        android:id="@+id/TVV"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="#FFFFFF"
+        android:gravity="left"
+        android:background="#9A4906"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/TV"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="#5E2222"
+        android:gravity="left"
+        android:textSize="20dp"></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/BT11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#5E2222"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+        <Button
+            android:id="@+id/BT12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#5E2222"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TV1"
+                android:layout_marginTop="150dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:background="#5E2222"
+                android:gravity="right"
+                android:textSize="20dp"></TextView>
+
+            <Button
+                android:id="@+id/BT1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#5E2222"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"></Button>
+
+            <Button
+                android:id="@+id/BT2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#5E2222"
+                android:layout_gravity="left"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"></Button>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/IV1"
+            android:layout_marginTop="170dp"
+            android:layout_width="210dp"
+            android:layout_height="400dp"
+            android:background="@drawable/kurpre">
+        </ImageView>
+        <ImageView
+            android:id="@+id/IV3"
+            android:layout_marginTop="170dp"
+            android:layout_width="250dp"
+            android:layout_height="400dp"
+            android:background="@drawable/kur">
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/IV2"
+            android:layout_marginTop="170dp"
+            android:layout_width="220dp"
+            android:layout_height="400dp"
+            android:background="@drawable/stufd">
+        </ImageView>
+        <TextView
+            android:id="@+id/TV3"
+            android:layout_marginTop="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:gravity="left"
+            android:background="#5E2222"
+            android:text="-- Приятно познакомиться, надеюсь, ты поможешь мне освоиться и поближе познакомиться с группой, - улыбнувшись, сказал я и предложил пойти в только что открывшийся кабинет"
+            android:textSize="20dp"></TextView>
+    </LinearLayout>
+</LinearLayout>

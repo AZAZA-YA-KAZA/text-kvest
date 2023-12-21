@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widd"
+    android:orientation="vertical"
+    tools:context=".Pravila">
+
+    <Button
+        android:id="@+id/BT"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#5E2222"
+        android:text="В меню"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></Button>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="И так, дорогой друг, приветствую тебя на просторах этого жуткого проекта.\nОн жуткий вовсе не из-за заставки.\nТут под сомнение ставится исключительно автор сей игры и его адекватность при написании данного чуда.\n_______________________________________"
+        android:background="#5E2222"
+        android:gravity="center"
+        android:textSize="20dp"></TextView>
+    <TextView
+        android:id="@+id/TV1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="ВЕСЬ ТЕКСТ АБСОЛЮТНО ВЫМЫШЛЕННЫЙ, НЕ НЕСЁТ НИКАКОГО ПОСЫЛА, ВСЕ ПЕРСОНАЖИ ТАК ЖЕ ВЗЯТЫ ИЗ ГОЛОВЫ, А ДЕЙСТВИЯ, СОВЕРШАЕМЫЕ В КВЕСЕ, ВЫПОЛНЕНЫ ПРОФЕССИОНАЛАМИ"
+        android:background="#5E2222"
+        android:gravity="center"
+        android:textSize="15dp"></TextView>
+    <TextView
+        android:id="@+id/TV2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Ну, приятного просмотра ♥"
+        android:background="#5E2222"
+        android:layout_gravity="center"
+        android:textSize="20dp"></TextView>
+</LinearLayout>

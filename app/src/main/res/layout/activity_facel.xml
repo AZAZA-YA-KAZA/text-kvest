@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/school"
+    android:orientation="vertical"
+    tools:context=".Facel">
+    <Button
+        android:id="@+id/BT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="В меню"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5E2222"></Button>
+    <TextView
+        android:id="@+id/TVV"
+        android:background="#9A4906"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#5E2222"
+        android:text="И так, сегодня первое важное мероприятие, не хотелось бы на него опоздать.\nФакел - это собрание, в рамках которого нужно подписать документы, есть возможность познакомиться со своими одногруппниками, куратором.\n\nИ так, пойдём ли мы на Факел?"
+        android:gravity="left"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+
+        <Button
+            android:id="@+id/BT1"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#5E2222"
+            android:layout_gravity="center"
+            android:text="Да"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+
+        <Button
+            android:id="@+id/BT2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:backgroundTint="#5E2222"
+            android:layout_gravity="center"
+            android:text="Нет"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"></Button>
+
+</LinearLayout>
